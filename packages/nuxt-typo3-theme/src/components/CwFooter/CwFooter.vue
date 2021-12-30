@@ -45,32 +45,3 @@ const CwFooterTheme = defineComponent({
 
 export default CwFooterTheme as typeof CwFooterTheme
 </script>
-<style lang="scss">
-@import '../../styles/shared';
-
-.cw-footer {
-  padding: var(--space-6) 0;
-  background: var(--color-bg-primary);
-
-  &__text {
-    .ce-header {
-      h2 {
-        font-size: var(--font-size-3xl);
-      }
-    }
-  }
-
-  @include media-query(lg) {
-    background: var(--color-bg-secondary);
-  }
-
-  .col {
-    margin-top: var(--space-2);
-  }
-
-  &,
-  a {
-    color: var(--color-text-primary-inverted);
-  }
-}
-</style>

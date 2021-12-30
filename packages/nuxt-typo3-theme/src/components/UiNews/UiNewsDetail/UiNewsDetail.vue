@@ -42,12 +42,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.ui-news-detail__text {
-  h1 {
-    font-size: var(--font-size-4xl);
-    line-height: var(--line-height-4xl);
-  }
-}
-</style>

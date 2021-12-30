@@ -106,35 +106,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss" scoped>
-.ui-pagination {
-  margin-top: var(--space-5);
-  text-align: center;
-
-  &__btn {
-    margin: 0 var(--space-2);
-    padding: 0;
-    height: 1.5em;
-    min-width: 1.5em;
-    width: 100%;
-  }
-
-  &__more {
-    margin: 0 var(--space-2);
-  }
-
-  &__list {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    margin: 0;
-
-    & > li {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
-}
-</style>

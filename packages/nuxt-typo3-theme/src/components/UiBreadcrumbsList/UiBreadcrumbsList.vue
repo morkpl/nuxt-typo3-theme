@@ -36,27 +36,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.ui-breadcrumbs {
-  margin: var(--space-3) 0;
-  display: flex;
-  align-items: baseline;
-
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-
-    li {
-      margin-right: var(--space-1);
-    }
-  }
-
-  &__icon {
-    width: 0.8em;
-    height: 0.8em;
-    margin-right: var(--space-1);
-  }
-}
-</style>

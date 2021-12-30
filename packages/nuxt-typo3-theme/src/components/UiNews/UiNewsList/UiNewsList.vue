@@ -30,17 +30,3 @@ export default defineComponent({
 })
 </script>
 
-<style lang="scss">
-.ui-news-list {
-  &__article {
-    padding-bottom: var(--space-5);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .ui-news-image__title {
-    margin-bottom: var(--space-md);
-  }
-}
-</style>

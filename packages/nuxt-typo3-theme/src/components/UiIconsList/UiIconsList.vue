@@ -34,15 +34,3 @@ export default defineComponent({
   }
 })
 </script>
-<style lang="scss">
-@import '../../styles/shared';
-
-.ui-icons-list {
-  display: flex;
-
-  &__item {
-    display: block;
-    margin-right: var(--space-2);
-  }
-}
-</style>

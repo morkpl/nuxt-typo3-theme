@@ -15,15 +15,3 @@ export default defineComponent({
   name: 'UiLayout'
 })
 </script>
-
-<style lang="scss">
-.ui-layout {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-
-  &__content {
-    flex: 1 0 auto;
-  }
-}
-</style>

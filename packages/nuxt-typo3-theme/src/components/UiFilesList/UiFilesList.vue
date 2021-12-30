@@ -50,25 +50,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.ui-files-list {
-  padding: 0;
-  list-style: none;
-
-  &__file {
-    align-items: flex-start;
-    display: flex;
-
-    .file__image {
-      text-align: center;
-      flex: 0 0 auto;
-      margin: 0 var(--space-5) 0 0;
-
-      img {
-        width: 3em;
-      }
-    }
-  }
-}
-</style>

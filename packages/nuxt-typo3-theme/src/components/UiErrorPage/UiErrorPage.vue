@@ -38,39 +38,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.error {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  .error__logo {
-    margin: 5rem 0;
-  }
-
-  .error__code {
-    font-size: 15rem;
-    line-height: 17rem;
-  }
-
-  .error__header {
-    font-weight: bold;
-    font-size: 3.5rem;
-  }
-
-  .error__subheader {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .error__button {
-    margin: 5rem 0;
-
-    .btn {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-  }
-}
-</style>

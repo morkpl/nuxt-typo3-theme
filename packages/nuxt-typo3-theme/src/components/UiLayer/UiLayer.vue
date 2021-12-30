@@ -96,24 +96,3 @@ export default defineComponent({
   }
 })
 </script>
-<style lang="scss">
-@import '../../styles/shared/variables';
-
-$ui-layer-bg: $palette-white !default;
-
-:root {
-  --ui-layer-bg: #{$ui-layer-bg};
-}
-
-.ui-layer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: auto;
-  background-color: var(--ui-layer-bg);
-  z-index: $z-index-overlay;
-}
-</style>

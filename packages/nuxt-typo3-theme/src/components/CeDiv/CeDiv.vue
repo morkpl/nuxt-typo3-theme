@@ -20,25 +20,3 @@ export default defineComponent({
   }
 })
 </script>
-<style lang="scss">
-@import '../../styles/shared';
-
-$divider-color: $palette-black;
-$divider-color-layout-1: $palette-gallery;
-
-:root {
-  --color-divider: #{$divider-color};
-  --color-divider-layout-1: #{$divider-color-layout-1};
-}
-
-.ce-div {
-  height: 1px;
-  display: block;
-  border: none;
-  background: var(--color-divider);
-
-  &--layout-1 {
-    background: var(--color-divider-layout-1);
-  }
-}
-</style>

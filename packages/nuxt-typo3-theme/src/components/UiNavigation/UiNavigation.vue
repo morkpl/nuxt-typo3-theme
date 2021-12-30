@@ -38,27 +38,3 @@ export default defineComponent({
   }
 })
 </script>
-<style lang="scss">
-@import '../../styles/shared';
-@import '../UiNavbar/UiNavbar.variables';
-
-$ui-navigation-fs: 2rem !default;
-$ui-navigation-lh: 3.2rem !default;
-
-:root {
-  --ui-navigation-fs: #{$ui-navigation-fs};
-  --ui-navigation-lh: #{$ui-navigation-lh};
-}
-
-.ui-navigation {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  font-size: var(--ui-navigation-fs);
-  line-height: var(--ui-navigation-lh);
-
-  @include media-query($ui-navbar-break-on) {
-    flex-direction: row;
-  }
-}
-</style>

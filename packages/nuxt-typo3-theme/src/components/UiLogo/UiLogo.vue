@@ -32,9 +32,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.ui-logo {
-  display: block;
-}
-</style>

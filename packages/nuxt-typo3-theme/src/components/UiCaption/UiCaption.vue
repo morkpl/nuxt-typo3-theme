@@ -30,17 +30,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.ui-caption {
-  display: flex;
-
-  .title {
-    margin-right: auto;
-  }
-
-  .date {
-    margin-left: auto;
-  }
-}
-</style>

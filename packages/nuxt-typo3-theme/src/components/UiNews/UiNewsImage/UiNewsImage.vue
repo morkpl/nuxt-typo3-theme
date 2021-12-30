@@ -62,20 +62,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.ui-news-image {
-  margin: 0;
-
-  &__title {
-    display: flex;
-    margin: var(--space-2) 0 var(--space-lg) 0;
-  }
-
-  &__image {
-    object-fit: cover;
-    width: 100%;
-    min-height: 304px;
-  }
-}
-</style>

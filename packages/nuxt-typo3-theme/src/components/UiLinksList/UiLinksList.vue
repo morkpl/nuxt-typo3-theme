@@ -29,32 +29,3 @@ export default defineComponent({
   }
 })
 </script>
-<style lang="scss">
-@import '../../styles/shared';
-
-.ui-links-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  &__link {
-    text-decoration: none;
-
-    @include text(xl);
-
-    @include media-query(lg) {
-      @include text(md);
-    }
-
-    color: var(--color-text-primary-inverted);
-  }
-
-  &__item {
-    margin: var(--space-4) 0;
-
-    @include media-query(lg) {
-      margin: var(--space-2) 0;
-    }
-  }
-}
-</style>

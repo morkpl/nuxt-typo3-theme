@@ -94,36 +94,3 @@ export default defineComponent({
   }
 })
 </script>
-<style lang="scss">
-@import '../../../styles/shared';
-@import '../../UiNavbar/UiNavbar.variables';
-
-.ui-navigation-list {
-  margin: 0;
-
-  @include media-query($ui-navbar-break-on) {
-    display: flex;
-    flex: 1;
-  }
-
-  li {
-    position: relative;
-  }
-
-  &__dropdown {
-    @include media-query($ui-navbar-break-on) {
-      position: absolute;
-      flex-direction: column;
-      min-width: 100%;
-      background: white;
-      border: 1px solid black;
-      border-top: 0;
-
-      li {
-        width: 100%;
-        margin: 0;
-      }
-    }
-  }
-}
-</style>
